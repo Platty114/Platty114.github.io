@@ -1,7 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>James Platt</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
+</head>
 <body>
-<h1>This is a test</h1>
-<p></p>
+	<div class="wrapper">
+		<header>
+			<h1>James Platt</h1>
+			<ul>
+				<li><a href="#aboutMe">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#resume">Experience</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			
+		</header>
+		<section class="aboutMeSection">
+			<h2 id="aboutMe">Hi, I'm James.</h2>
+			<div class ="aboutMeFlex">
+				<p >I was born and raised in Calgary Alberta, and I am currently a student at the University of Calgary, studying software Engineering. 
+				This summer I wanted to spend some time learning new languages and experimenting with developing some apps. You can find some of my projects below!
+				When I'm not learning new things or working, I like to spend my time learning Japanese, playing hockey and working out, working on my car, and playing around with linux.</p>
+				<img src="./images/IMG-2217.jpg" alt="A picture of me" class="popImage">
+			</div>
+		</section>
+		<section class="projectsSection">
+			<h2 id="projects">Projects</h2>
+			<p>Here are some projects I have worked on. (it's pretty empty right now, but preten there is stuff)</p>
+			<div class="pop">
+				<h3>ENSF409 Food Bank Database and Ordering system</h3>
+				<p>This was a project I worked on during the winter 2022 semester for my Principles of Software Development class. I was put in a group with 3 of my classmates, and we were
+				tasked with developing a Java based GUI application that was able to interact with an SQL database of items, take an order, and then find the ideal list of items for
+				the order from items in the database. If there weren't enough items, it needed to report that to the user, and then report how many calories the database was short, broken down by specific macro nutrients.			
+				I had my hand in almost every part of the project, from developing the GUI on my own, to managing the database, and develooping the main flow of the
+				program. We recieved a perfect grade. 
+				Repo: https://github.com/platty02/ENSF409Group51</p>
+			</div>
+			<div class="pop">
+				<h3>Personal Website</h3>
+				<p>At the end of summer 2022, I decided I wanted to put the little bit of HTML and CSS that I had learned over the summer to good use and make
+					myself a personal website! It's built using HTML and CSS (so far, I hope to add JavaScript to it soon!) You can find all the code for it
+					over on my personal github account here.</p>
+			</div>
+		</section>
+		<section class = "resumeSection">
+			<h2 id="resume">Work Experience</h2>
+			<div class="workExperience1 pop">	
+				<h3>TC Energy</h3>
+				<h4>Cyber Projects Summer Student May 2022 - August 2022</h4>
+				<p>Aided in project planning and managed documentation, interpreted and formatted raw asset data, led meetings with business partners and technical 
+				resources on gathering technical data from sites, created implementation and deployment plans for projects.</p>
+			</div>
+			<div class="workExperience2 pop">
+				<h3>TC Energy</h3>
+				<h4>Network Projects Summer Student May 2021 - August 2021</h4>
+				<p>Communicated with field resources to gather required data and coordinate project deployments. 
+				Managed vendors and organized contract work, as well as managed procurement of resources with business partners. 
+				Gathered, interpreted, and utilized employee requirements for satellite phone deployments. Led meetings that were attended by Directors and Managers</p>
+			</div>
+		</section>
+		<section class = "contactMeSection">
+			<h2 id="contact">Contact Me</h2>
+			<p>Here are some links to my linkedin github accounts. If you want to reach out to me by email, I can be contacted at james.platt02protonmail.com</p>
+			<ul>
+				<li><img src="./images/linkedin.jpg" class="pop"></li>
+				<li><img src="./images/github_school(1).png" class="pop"></li>
+				<li><img src="./images/github_personal.jpg" class="pop"></li>
+			</ul>
+		</section>
+		<footer>
+			
+		</footer>
+	</div>
 </body>
 </html>
