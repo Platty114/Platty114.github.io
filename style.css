@@ -2,6 +2,11 @@ html {
 	box-sizing: border-box;
 }
 
+
+/*
+	here are the classes and animations used to start the website with a light background (.backgroundStart), and then be in 
+	one of two states, either light or dark (using .lightBackground and .darkBackground) 
+*/
 .backgroundStart{
 	background-image: url("./images/background.png");
 }
@@ -38,6 +43,10 @@ html {
 	animation-fill-mode: forwards;
 }
 
+/*
+	general styling for headers, paragraphs and links.
+*/
+
 h1 {
 	font-size: 4rem;
 	
@@ -68,8 +77,12 @@ a:hover {
 	text-decoration: underline;
 }
 
+
+/*
+	general styling for the header, aswell as the class .pointer which is 
+	used to make the dark/light mode button look the same as other buttons.
+*/
 header {
-	background-color: ;
 	border-radius: 5px;
 }
 
@@ -97,6 +110,12 @@ header ul  li{
 	margin-bottom: 1%;
 	font-size: 1.7rem;
 }
+
+/*
+	here are the classes used to style the menu when it is not in the default state (styled above).
+	Animations are used to transition between the two states, aswell as classes are used to 
+	change the style of buttons and the header between the two states.
+*/
 
 @keyFrames menuTransitionToDark {
 	from {
@@ -155,6 +174,10 @@ header ul  li{
 	
 }
 
+/*
+	styling for the body of the page to achieve propper formating of each section and images.
+*/
+
 body {
 	font-family: 'Nunito', 'Open Sans', arial, sans-serif;
 	
@@ -206,21 +229,7 @@ body {
 	to {box-shadow: -3px 3px 10px grey;}
 	
 }
-/*
-@keyframes popTransitionToLightAnimation {
-	from {}
-	to {
-		background-color: #ffffff8;
-		color: black;
-	}
-}
 
-.popTransitionToLight {
-	animation-name: popTransitionToLightAnimate;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-}
-*/
 .popLight {
 	border: 0px solid lightgrey;
 	border-radius: 5px;
@@ -245,23 +254,7 @@ body {
 	to {box-shadow: -2px 2px 10px lightgrey;}
 	
 }
-/*
-@keyframes popTransitionToDarkAnimation {
-	from {}
-	to {
-		background-color: black;
-		color: white;
-	}
-}
 
-/*this is a state for the transition between light to dark for popping items.*/
-/*
-.popTransitionToDark {
-	animation-name: popTransitionToDarkAnimate;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-}
-*/
 .popDark {
 	border: 1px solid lightgrey;
 	border-radius: 5px;
@@ -331,11 +324,6 @@ body {
 	padding: 20px;
 	border-radius: 20px;
 	
-	/*position: absolute;
-	bottom: 1%;
-	top: 1%;
-	left: 5%;
-	right: 5%;*/
 }
 
 .wrapperIntial {
