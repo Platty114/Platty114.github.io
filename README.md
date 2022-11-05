@@ -1,4 +1,4 @@
-# James Platt's personal Website!\
+# James Platt's personal Website!
 
 This is a pretty simple project, consisting of only three files
 - index.html
