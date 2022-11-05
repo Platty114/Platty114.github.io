@@ -1,52 +1,42 @@
+
+/*syling for the main body, background, and wrapper*/
 html {
 	box-sizing: border-box;
 }
 
-
-/*
-	here are the classes and animations used to start the website with a light background (.backgroundStart), and then be in 
-	one of two states, either light or dark (using .lightBackground and .darkBackground) 
-*/
-.backgroundStart{
-	background-image: url("./images/background.png");
+.background{
+	background-image: url("./images/cool-background.png");
 }
 
-@keyframes toLightBackground {
-	from{
-		background: rgba(0,0,0,0.4) url("./images/background.png");
-		background-blend-mode: darken;
-	}
-	to {
-		background-image: url("./images/background.png");
-	}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
 }
 
-@keyframes toDarkBackground {
-	from{
-		background-image: url("./images/background.png");
-	}
-	to {
-		background: rgba(0,0,0,0.4) url("./images/background.png");
-		background-blend-mode: darken;
-	}
+/*adding particle effects to the welcome screen
+and adding welcome Screen Title style*/
+#particles-js{
+    height: 100%;
+	position: absolute;
+	width: 100%;
+	min-width: 100%;
 }
 
-.lightBackground {
-	animation-name: toLightBackground;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
+.welcomeScreenTitle {
+	font-size: 4rem;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	width: 60%;
+	margin: 0 auto;
 }
 
-.darkBackground {
-	animation-name: toDarkBackground;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-}
-
-/*
-	general styling for headers, paragraphs and links.
-*/
-
+/*styling basic elements h1, h2, h3, h4, p, a*/
 h1 {
 	font-size: 4rem;
 	
@@ -69,8 +59,9 @@ p {
 	font-size: 1.5rem;
 }
 
-a {
+a, a:visited{
 	text-decoration: none;
+	color: blue;
 }
 
 a:hover {
@@ -96,88 +87,24 @@ header h1, header p {
 }
 
 header ul {
-	/*border: 5px solid red;*/
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	width: 60%;
 	margin: 0 auto;
 }
-
 header ul  li{
 	list-style-type: none;
 	padding: 1%;
 	margin-bottom: 1%;
 	font-size: 1.7rem;
 }
-
-/*
-	here are the classes used to style the menu when it is not in the default state (styled above).
-	Animations are used to transition between the two states, aswell as classes are used to 
-	change the style of buttons and the header between the two states.
-*/
-
-@keyFrames menuTransitionToDark {
-	from {
-		color: black;
-	}
-	to {
-		color: white;
-	}
-	
-}
-
-@keyFrames menuTransitionToLight {
-	from {
-		color: white;
-	}
-	to {
-		color: black;
-	}
-	
-}
-
-.menuStartPoint {
-	text-decoration: none;
+header ul  li a, header ul  li a:visited {
 	color: black;
 }
 
-.darkMenuItem {
-	animation-name: menuTransitionToDark;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	text-decoration: none;
-}
-
-.lightMenuItem {
-	animation-name: menuTransitionToLight;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	text-decoration: none;
-}
-
-.lightMenuItem:link, .lightMenuItem:visited {
-	text-decoration: none;
-}
-.lightMenuItem:hover {
-	text-decoration: underline;
-	color: grey;
-	
-}
-
-.darkMenuItem:link, .darkMenuItem:visited  {
-	text-decoration: none;
-}
-.darkMenuItem:hover {
-	text-decoration: underline;
-	color: lightgrey;
-	
-}
-
-/*
-	styling for the body of the page to achieve propper formating of each section and images.
-*/
-
+/*syling body elements and main elements of the page aboutMe, Projects,
+Resume, and Contact*/
 body {
 	font-family: 'Nunito', 'Open Sans', arial, sans-serif;
 	
@@ -186,7 +113,7 @@ body {
 .aboutMeSection {
 	width: 90%;
 	margin: 0 auto;
-	/*margin-bottom: 50%;*/
+	margin-top: 30%;
 }
 
 .aboutMeSection h2 {
@@ -221,78 +148,6 @@ body {
 	width: 90%;
 	margin: 0 auto;
 }
-
-/* Start of poping animations for light elements.*/
-
-@keyframes popLightAnimation{
-	from { }
-	to {box-shadow: -3px 3px 10px grey;}
-	
-}
-
-.popLight {
-	border: 0px solid lightgrey;
-	border-radius: 5px;
-	display: inline-block;
-	padding-left: 1%;
-	padding-right: 1%;
-	margin-bottom: 2%;
-	box-shadow: -2px 2px 10px lightgrey;
-	
-}
-
-.popLight:hover {
-	animation-name: popLightAnimation;
-	animation-duration: 0.3s;
-	animation-fill-mode: forwards;
-}
-
-/*start of popping animations for dark elements.*/
-
-@keyframes popDarkAnimation{
-	from { }
-	to {box-shadow: -2px 2px 10px lightgrey;}
-	
-}
-
-.popDark {
-	border: 1px solid lightgrey;
-	border-radius: 5px;
-	display: inline-block;
-	padding-left: 1%;
-	padding-right: 1%;
-	margin-bottom: 2%;
-	box-shadow: -3px 3px 10px grey;
-}
-
-.popDark:hover {
-	animation-name: popDarkAnimation;
-	animation-duration: 0.3s;
-	animation-fill-mode: forwards;
-}
-
-/* Start of animaitons for popping images*/
-
-.popImageLight {
-	box-shadow: -2px 2px 10px lightgrey;
-}
-
-.popImageLight:hover {
-	animation-name: popLightAnimation;
-	animation-duration: 0.3s;
-	animation-fill-mode: forwards
-}
-
-.popImageDark {
-	box-shadow: -3px 3px 10px grey;
-}
-
-.popImageDark:hover {
-	animation-name: popDarkAnimation;
-	animation-duration: 0.3s;
-	animation-fill-mode: forwards
-}
-
 .contactMeSection {
 	width: 90%;
 	margin: 0 auto;
@@ -317,55 +172,39 @@ body {
 	
 }
 
-.wrapper {
-	width: 90%;
-	margin: 0 auto;
+/*animation and styling for elements that pop*/
+/*adds shadow effects to these elements*/
+
+@keyframes popLightAnimation{
+	from { }
+	to {box-shadow: -3px 3px 10px grey;}
 	
-	padding: 20px;
-	border-radius: 20px;
+}
+
+.popLight {
+	border: 0px solid lightgrey;
+	border-radius: 5px;
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-bottom: 2%;
+	box-shadow: -2px 2px 10px lightgrey;
 	
 }
 
-.wrapperIntial {
-	color: black;
-	background-color: #fffffff8;
-	filter: brightness(100%);
-}
-
-@keyframes lightAnimate {
-	from { 
-		background-color: #1F1F20;
-		color: white;
-	}	
-	to {
-		color: black;
-		background-color: #fffffff8;
-	}
-}
-
-.light {
-	animation-name: lightAnimate;
-	animation-duration: 0.5s;
+.popLight:hover {
+	animation-name: popLightAnimation;
+	animation-duration: 0.3s;
 	animation-fill-mode: forwards;
 }
 
-@keyframes darkAnimate {
-	from { 
-		color: black;
-		background-color: #fffffff8;
-	}
-	to {
-		background-color: #1F1F20;
-		color: white;
-	}
+.popImageLight {
+	box-shadow: -2px 2px 10px lightgrey;
 }
 
-.dark {
-	animation-name: darkAnimate;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
+.popImageLight:hover {
+	animation-name: popLightAnimation;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards
 }
-
-
-
 
