@@ -18,7 +18,7 @@ function changeMode() {
 		currentlyDark = true;
 	}
 	else{
-		document.getElementById("background").style.backgroundImage = 'url("./images/cool-background1.png")';
+		document.getElementById("background").style.backgroundImage = 'url("./images/cool-background.png")';
 		document.getElementById("background").style.color = 'black';
 		for(let i =0; i < menuItems.length; i++) {
 			menuItems[i].style.color = 'black';
