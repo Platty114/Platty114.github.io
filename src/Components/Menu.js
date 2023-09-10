@@ -134,7 +134,7 @@ function ResponsiveAppBar(props) {
                 onClick={handleCloseNavMenu}
                 color='inherit'
                 sx={{ my: 2, display: 'block' }}
-                href={"/" + page}
+                href={"/#/" + page}
               >
                 {page}
               </Button>
