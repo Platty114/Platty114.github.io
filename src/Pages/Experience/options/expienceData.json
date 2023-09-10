@@ -1,0 +1,21 @@
+[
+    {
+        "Title":"Envirosoft",
+        "SecondaryTitle": "Software Developer COOP",
+        "DateRange" : "January 2023 - August 2023",
+        "Content": "Created and contributed to multiple front-end components written in React using Typescript, developed unit tests and worked towards developing an integration testing framework using Jest and Vi test, all for an in-development application targeted at over 50+ oil and gas companies. Wrote multiple API endpoints and set up tables/server structure on the back end for the same application using Java, Springboot and MsSQL. Fixed bugs and maintained legacy applications used by over 50+ oil and gas companies using Java, JSF, and Springboot."
+    },
+    {
+        "Title":"TC Energy",
+        "SecondaryTitle": "Cyber Projects Summer Student",
+        "DateRange" : "May 2022 - August 2022",
+        "Content":"Aided in project planning and managed documentation, interpreted and formatted raw asset data, led meetings with business partners and technical resources on gathering technical data from sites, created implementation and deployment plans for projects."
+    },
+    {
+        "Title":"TC Energy",
+        "SecondaryTitle": "Network Projects Summer Student",
+        "DateRange" : "May 2021 - August 2021",
+        "Content": "Communicated with field resources to gather required data and coordinate project deployments. Managed vendors and organized contract work, as well as managed procurement of resources with business partners. Gathered, interpreted, and utilized employee requirements for satellite phone deployments. Led meetings that were attended by Directors and Managers."
+    }
+
+]
