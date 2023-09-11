@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -9,12 +8,12 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
+
+import './options/Menu.css'
 
 const pages = ['About', 'Projects', 'Experience', 'Contact Me'];
 
@@ -102,7 +101,7 @@ function ResponsiveAppBar(props) {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" ><a href="/">{page}</a></Typography>
+                  <Typography textAlign="center"><a href={"/#/" + page}><Typography sx={{color: 'primary.main', textDecoration: 'none'}}>{page}</Typography></a></Typography>
                 </MenuItem>
               ))}
             </Menu>

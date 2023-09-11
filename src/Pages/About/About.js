@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import './About.css';
 
@@ -33,6 +34,7 @@ const
                         img={imageOfMe}
                         imgAlt='A picture of me'
                         imgRight={true}
+                        textWidth={'md'}
                     ></AboutMeCard>
                     <AboutMeCard 
                         title=''
@@ -42,6 +44,7 @@ const
                         img={imageOfCode}
                         imgAlt='A picture of me'
                         imgRight={false}
+                        textWidth={'sm'}
                     >
                     </AboutMeCard>
                 </Container>

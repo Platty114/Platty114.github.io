@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ResponsiveAppBar } from '../../Components/Menu';
+import { ResponsiveAppBar } from '../../Components/Menu/Menu';
 
 
 const TopBar = (props) => {
