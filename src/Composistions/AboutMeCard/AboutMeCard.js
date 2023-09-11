@@ -37,7 +37,7 @@ const
                                     {props.paragraph}
                                 </Typography>
                         </Container>
-                        <Box >
+                        <Box sx={{maxWidth: '100vw'}}>
                             <img src={props.img} alt={props.imgAlt} ></img>
                         </Box>
                 </Container>
@@ -57,7 +57,7 @@ const
                             flexWrap: 'wrap'
                         }
                     }>
-                        <Box >
+                        <Box sx={{maxWidth: '100vw'}}>
                             <img src={props.img} alt={props.imgAlt} ></img>
                         </Box>
                         <Container 
