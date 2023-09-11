@@ -17,5 +17,8 @@
     margin: 2% auto 0% auto;
 }
 
+img {
+    max-width: 95vw;
+}
 
 
