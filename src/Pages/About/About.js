@@ -38,11 +38,13 @@ const
                     ></AboutMeCard>
                     <AboutMeCard 
                         title=''
-                        paragraph="I was born and raised here in Calgary, and currently I'm a student at the University of Calgary where I am studying software Engineering. 
-                        This summer I wanted to spend some time learning new languages and experimenting with developing some apps. You can find some of my projects below!
-                        When I'm not learning new things or working, I like to spend my time learning Japanese, playing hockey, working out, working on my car, and playing around with linux"
+                        paragraph="As far as software goes, my main interests are related to full stack web development, 
+                        as I have found the technologies involved to be fun and interesting, and it's allowed me to work on some really cool projects through Intenrships.
+                        That being said though, there's alot of other fields that interest me aswell, such as the hugely popular and growing filed of data science and machine learning,
+                        which I've been lucky to be exposed to through Internships aswell. I'm also very interested in embedded systems and low level programming, as I find the techniques
+                        and mindsets required to be fascinating."
                         img={imageOfCode}
-                        imgAlt='A picture of me'
+                        imgAlt='A mock Json object'
                         imgRight={false}
                         textWidth={'sm'}
                     >
