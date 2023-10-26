@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2effdaa.css",
-    "main.js": "/static/js/main.e6dfb929.js",
+    "main.js": "/static/js/main.0dfbcf79.js",
     "static/media/CSS_logo.png": "/static/media/CSS_logo.42dac7cbcaea7e5820c6.png",
     "static/media/James_Platt_Resume_2023_pdf.pdf": "/static/media/James_Platt_Resume_2023_pdf.76dfa1d453ca2c2099fb.pdf",
     "static/media/TCEnergy.png": "/static/media/TCEnergy.e61fd635f4a42a8d3b38.png",
@@ -12,10 +12,10 @@
     "static/media/IMG-2217.jpg": "/static/media/IMG-2217.9f46d08e8ba7c7ec5240.jpg",
     "index.html": "/index.html",
     "main.e2effdaa.css.map": "/static/css/main.e2effdaa.css.map",
-    "main.e6dfb929.js.map": "/static/js/main.e6dfb929.js.map"
+    "main.0dfbcf79.js.map": "/static/js/main.0dfbcf79.js.map"
   },
   "entrypoints": [
     "static/css/main.e2effdaa.css",
-    "static/js/main.e6dfb929.js"
+    "static/js/main.0dfbcf79.js"
   ]
 }
