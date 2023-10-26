@@ -3,18 +3,21 @@
         "Title":"Personal Website",
         "Content":"This is the website you're using right now! In the past it was written using plain HTML, CSS, and Javascript, but recently I've quickly rewritten it in react in order to have a nice portfolio app for myself. It uses the material Ui library for alot of the ui components, aswell as a fre custom components. Still a work in progress!",
         "Link":"https://github.com/Platty114/Platty114.github.io/tree/main",
-        "LinkText" : "Github Repo"
+        "LinkText" : "Github Repo",
+        "Languages": "JS,HTML,CSS"
     },
     {
         "Title": "Theatre Project",
         "Content": "This is a simple app that myself and a few of my class mates wrote that fufills the needs of a movie theatre organizition for displaying, purchasing, and handling movie tickets online. It was writting using Java Swing and Java, and makes use of a MySQL data base.",
         "Link": "https://github.com/Platty114/TheatreProject",
-        "LinkText": "Github Repo"
+        "LinkText": "Github Repo",
+        "Languages": "JAVA,SQL"
     },
     {
         "Title": "Food Bank System",
         "Content": "This was a project I worked on during the winter 2022 semester for my Principles of Software Development class. I was put in a group with 3 of my classmates, and we were tasked with developing a Java based GUI application that was able to interact with an SQL database of items, take an order, and then find the ideal list of items for the order from items in the database. If there weren't enough items, it needed to report that to the user, and then report how many calories the database was short, broken down by specific macro nutrients. I had my hand in almost every part of the project, from developing the GUI on my own, to managing the database, and develooping the main flow of the program. ",
         "Link": "https://github.com/platty02/ENSF409Group51",
-        "LinkText": "Github Repo"
+        "LinkText": "Github Repo",
+        "Languages": "JAVA,SQL"
     }
 ]

@@ -21,12 +21,10 @@ function ResponsiveAppBar(props) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const themeOptions = props.themeOptions;
-  console.log(themeOptions)
   const themeChanger = props.setMode
   const setTheme = () =>{
     if(themeOptions.palette.mode === 'light'){
       themeChanger('dark');
-      console.log(themeOptions)
     }
     else{
       themeChanger('light');
@@ -101,7 +99,7 @@ function ResponsiveAppBar(props) {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"><a href={"/#/" + page}><Typography sx={{color: 'primary.main', textDecoration: 'none'}}>{page}</Typography></a></Typography>
+                  <Typography textAlign="center"><a href={"/#/" + page}><Typography color='inherit' sx={{color: 'text.primary', textDecoration: 'none'}}>{page}</Typography></a></Typography>
                 </MenuItem>
               ))}
             </Menu>

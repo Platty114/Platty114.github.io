@@ -4,6 +4,7 @@ import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import { About } from './Pages/About/About'
 import Experience from './Pages/Experience/Experience'
 import Projects from './Pages/Projects/Projects';
+import {Contact} from './Pages/Contact/Contact'
 import { TopBar } from './Composistions/TopBar/TopBar'
 import { ResponsiveBottomBar } from './Composistions/BottomBar/BottomBar'
 
@@ -41,6 +42,7 @@ function App() {
                   <Route path="/About" element={<About />} />
                   <Route path="/Experience" element={<Experience/>} />
                   <Route path="/Projects" element={<Projects/>} />
+                  <Route path="/Contact Me" element={<Contact/>} />
                 </Routes>
               </HashRouter>
             </Container>
