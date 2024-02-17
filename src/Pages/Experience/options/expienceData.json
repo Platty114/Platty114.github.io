@@ -1,5 +1,12 @@
 [
     {
+        "Title": "Univeristy Of Calgary",
+        "SecondaryTitle": "Teaching Assistant",
+        "DateRange": "January 2024 - April 2024",
+        "Content": "This semester I will have the opportunity to TA CPSC 355 – Computing Machinery I, where I will be taking on a teaching role involving running tutorial sessions, grading assignments and exams, and helping with any questions students have about the course. The class is focused on teaching students about ARM assembly and it’s architecture.",
+        "Image": ""
+    },
+    {
         "Title":"Envirosoft",
         "SecondaryTitle": "Software Developer COOP",
         "DateRange" : "January 2023 - August 2023",

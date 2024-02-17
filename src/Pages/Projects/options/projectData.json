@@ -1,5 +1,19 @@
 [
     {
+        "Title": "BreakTime",
+        "Content": "This is a project I created as part of my Databases class in fall 2023. It is a myAnimeList knock off for movies and netflix shows, written entire in Javascript. For the front end I used React and material UI to create all the front end components, and on the backend I used ExpressJS to create a REST API that was connected to the MySQL / MariaDB database. This was originally supposed to be a group project, but if you look at the commit logs, I wrote the entire application after one group member got seriously Ill and the other was completely absent.",
+        "Link": "https://github.com/oneHalo/Movie-Recomendation-System",
+        "LinkText": "Github Repo",
+        "Languages": "JS,SQL"
+    },
+    {
+        "Title": "Toy Compiler",
+        "Content": "This is a small project that I've been working on as part of my compilers class. The goal was to develop a functional compiler for the C- language, a subset of C that is specified in the Introduction to Compilers and Language Design text book by Douglas Thain. At the moment, it can perform language lexing, syntax checking and semantic correctness checks. I plan on coninuing to work on this project until I can generate a LLVM compatable Intermediate Representation.",
+        "Link": "https://github.com/Platty114/CompilerProject",
+        "LinkText":"Github Repo",
+        "Languages": ""
+    },
+    {
         "Title":"Personal Website",
         "Content":"This is the website you're using right now! In the past it was written using plain HTML, CSS, and Javascript, but recently I've quickly rewritten it in react in order to have a nice portfolio app for myself. It uses the material Ui library for alot of the ui components, aswell as a fre custom components. Still a work in progress!",
         "Link":"https://github.com/Platty114/Platty114.github.io/tree/main",
@@ -12,12 +26,6 @@
         "Link": "https://github.com/Platty114/TheatreProject",
         "LinkText": "Github Repo",
         "Languages": "JAVA,SQL"
-    },
-    {
-        "Title": "Food Bank System",
-        "Content": "This was a project I worked on during the winter 2022 semester for my Principles of Software Development class. I was put in a group with 3 of my classmates, and we were tasked with developing a Java based GUI application that was able to interact with an SQL database of items, take an order, and then find the ideal list of items for the order from items in the database. If there weren't enough items, it needed to report that to the user, and then report how many calories the database was short, broken down by specific macro nutrients. I had my hand in almost every part of the project, from developing the GUI on my own, to managing the database, and develooping the main flow of the program. ",
-        "Link": "https://github.com/platty02/ENSF409Group51",
-        "LinkText": "Github Repo",
-        "Languages": "JAVA,SQL"
     }
+   
 ]
